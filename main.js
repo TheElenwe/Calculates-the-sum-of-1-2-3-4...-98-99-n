@@ -1,8 +1,8 @@
-let prompt = require('prompt-sync')({sigint: true});
+let readlineSync = require('readline-sync')
 
-let number = prompt("Give me number: ");
+let number = readlineSync.question("Give me number: ");
 
-number = parseFloat(number )
+number = parseFloat(number)
 
 
 let total=0;
